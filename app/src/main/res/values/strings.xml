@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dukes Dice Roller</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_roller">Dice Roller</string>
+    <string name="nav_new_preset">New Roll Preset</string>
+    <string name="nav_roll_preset">Roll Presets</string>
+    <string name="nav_extras">Extras</string>
+    <string name="new_macro">New Macro Fragment</string>
+    <string name="extras">Extras Fragment</string>
+</resources>
