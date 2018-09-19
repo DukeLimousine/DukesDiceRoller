@@ -5,9 +5,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.view.GestureDetector;
+import android.view.GestureDetector.OnGestureListener;
+import android.widget.Toast;
+
+import com.example.hansyolo.dukesdiceroller.listeners.OnSwipeTouchListener;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,6 +34,7 @@ public class DiceRollerFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+    GestureDetector gestureScanner;
 
     public DiceRollerFragment() {
         // Required empty public constructor
@@ -64,6 +71,13 @@ public class DiceRollerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_dice_roller, container, false);
+
+        v.setOnTouchListener(new OnSwipeTouchListener(getActivity().getApplicationContext()) {
+            @Override
+            public void onSwipeDown() {
+                Toast.makeText(getActivity(), "Down", Toast.LENGTH_SHORT).show();
+            }
+        });
         
         return v;
     }
@@ -91,6 +105,7 @@ public class DiceRollerFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+
 
     /**
      * This interface must be implemented by activities that contain this
