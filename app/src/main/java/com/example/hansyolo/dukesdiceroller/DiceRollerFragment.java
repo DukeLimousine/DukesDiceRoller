@@ -1,6 +1,7 @@
 package com.example.hansyolo.dukesdiceroller;
 
 import android.content.Context;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.GestureDetector;
 import android.view.GestureDetector.OnGestureListener;
@@ -76,6 +78,16 @@ public class DiceRollerFragment extends Fragment {
             @Override
             public void onSwipeDown() {
                 Toast.makeText(getActivity(), "Down", Toast.LENGTH_SHORT).show();
+            }
+
+            public void onSwipeLeft() {
+                ImageView imageView = (ImageView)getView().findViewById(R.id.die_view);
+                imageView.setImageResource(R.drawable.ic_check_box_outline_blank_black_24dp);
+            }
+
+            public void onSwipeRight() {
+                ImageView imageView = (ImageView)getView().findViewById(R.id.die_view);
+                imageView.setImageResource(R.drawable.ic_change_history_black_24dp);
             }
         });
         
