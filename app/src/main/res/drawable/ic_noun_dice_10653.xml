@@ -1,0 +1,13 @@
+<!--Dice by Mike Valstar from the Noun Project-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:viewportHeight="125.0"
+    android:viewportWidth="100.0"
+    android:width="24dp"
+    android:id="@+id/d10_image">
+    <path android:fillColor="#000000" android:pathData="M51.39,3.02l-30.94,64.95l28.45,18.56l30.78,-18.6L51.39,3.02z"/>
+    <path android:fillColor="#000000" android:pathData="M52.84,1.95l28.6,65.31l16.56,-5.35l1.07,-26.41L52.84,1.95z"/>
+    <path android:fillColor="#000000" android:pathData="M49.88,88.04l0,10.01l47.6,-33.59l-15.89,4.47L49.88,88.04z"/>
+    <path android:fillColor="#000000" android:pathData="M49.88,2.24l-31.25,65.09l-16.26,-7l-1.44,-26.49L49.88,2.24z"/>
+    <path android:fillColor="#000000" android:pathData="M47.72,87.83l0,10.22l-45.57,-35.22l15.78,6.16L47.72,87.83z"/>
+</vector>

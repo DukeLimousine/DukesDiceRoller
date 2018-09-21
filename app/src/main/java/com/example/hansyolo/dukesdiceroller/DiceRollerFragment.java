@@ -87,7 +87,7 @@ public class DiceRollerFragment extends Fragment {
 
             public void onSwipeRight() {
                 ImageView imageView = (ImageView)getView().findViewById(R.id.die_view);
-                imageView.setImageResource(R.drawable.ic_change_history_black_24dp);
+                imageView.setImageResource(R.drawable.ic_noun_dice_10653);
             }
         });
         

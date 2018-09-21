@@ -1,0 +1,25 @@
+<!--Dice by Mike Valstar from the Noun Project-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="100dp"
+        android:height="125dp"
+        android:viewportWidth="100.0"
+        android:viewportHeight="125.0">
+    <path
+        android:pathData="M34.45,72.83L23.85,41.06l26.85,-21.06l27.45,21.06l-10.2,32.34L34.45,72.83z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M2.88,34.37L3.77,66.28l17.19,23.6l12.24,-15.09l-11.28,-34.15L2.88,34.37z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M67.66,75.57l-33.53,-0.2L23.36,90.52l27.1,8.45l27.68,-8.83L67.66,75.57z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M4.5,33.38L21.4,10.65l27.97,-9.62v16.9L22.35,39.22L4.5,33.38z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M52.7,1.05l27.68,9.32l16.15,23.33l-17.03,5.97l-27.1,-21.42L52.7,1.05z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M69.94,74.23l10.41,-31.76l16.76,-5.83l-0.08,28.56L80.44,88.51L69.94,74.23z"
+        android:fillColor="#000000"/>
+</vector>
